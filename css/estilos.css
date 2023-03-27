@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Creo el estilo del header */
+header {
+  background-color: #666;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+/* Create 2 columnas/una la lado de la otra */
+
+section {
+  float: left;
+  width: 30%;
+  height: 100%;
+  background: #7a7bc0;
+  padding: 20px;
+
+}
+article{
+float: right;
+padding: 20px;
+width: 70%;
+background-color: #f1f1f1;
+height: 100%;
+}
+
+@media (max-height: 600px) {
+ article, section, footer {
+    width: auto;
+    height: 100;
+    
+  }
+}
+/* Creo el estilo del pie de pagina con contacto */
+#final {
+text-align: center;
+background-color: DarkSalmon;
+color: white;
+float: inline-end;
+}
+
+h2, h3{
+color: #666;
+font-weight: 700;
+
+}
+
+nav ul{
+display: flex;
+justify-content: center;
+list-style: none;
+
+}
+
+nav{
+padding-top: 30px;
+padding-bottom: 30px;
+background-color: antiquewhite;
+}
+
+nav ul li{
+margin-left: 20px;
+margin-right: 20px;
+padding: 10px 20px;
+background-color: aliceblue;
+}

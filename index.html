@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mi Hoja de Vida | Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="icono.jpg">
+    <script src="https://kit.fontawesome.com/4e4d43ea80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+        <!-- Open Graph data -->
+ <meta property="og:title" content="Curriculum Vitae" />
+ <meta property="og:type" content="CV" />
+ <meta property="og:url" content="" />
+ <meta property="og:image" content="icono.jpg" />
+ <meta property="og:description" content="Esto es mi CV proyecto final Primeros Pasos Front End" />
+</head>
+<body>
+  <header>
+    <img src="1.jpg" alt="foto de perfil" />
+    <h1>Yo soy "Rita Peltier"</h1>    
+  </header>
+  <nav>
+    <ul class="lista personal">
+      <div class="edad">
+       
+      <li class="Edad">
+        
+        <p id="demo" style="display:none">42 años</p>
+
+        <button type="button" onclick="document.getElementById('demo').style.display='block'">Edad</button>
+      
+      </li>
+    </div>
+      <li class="Direccion">
+        <i class="fa-solid fa-house"></i>
+        <p>Dirección</p>
+        
+        <strong class="Direccion">Carrodilla, Lujan de Cuyo, Mendoza</strong>
+               
+      </li>
+ 
+      <li class="correo">
+        <i class="fa-solid fa-envelope"></i>
+        <p>Mi e-mail</p>
+        <strong class="Correo">peltier.rita@yahoo.com.ar</strong>
+      </li>
+      <li class="telefono">
+        <i class="fa-solid fa-phone"></i>
+
+        <p>Numero de Teléfono</p>
+        <strong class="Numero">+54 9 261 3445928</strong>
+
+       
+      </li>
+      <li class="nacimiento">
+        <i class="fa-solid fa-calendar-days"></i>
+        <p>Fecha de Nacimiento</p>
+        <strong class="Fecha">29/12/1981</strong>
+
+       
+      <li class="perfil social">
+        <i class="fa-solid fa-user"></i>
+        <strong class="Linkedin">Linkedin:</strong>
+        <a href="https://www.linkedin.com/in/rita-peltier-75511342/" target="_blank">Mi perfil</a>
+        </li>
+  </ul>
+  </nav>
+  <main>
+    <section id="Columna-izquierda">
+      <div class="Perfil Profesional">
+       <h2> Pefil Profesional</h2>
+       <br>
+      
+       <p> Desarrollador front end con 10 años de experiencia dirigiendo proyectos de diseño de páginas web.</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="aptitudes">
+        <h2> Aptitudes</h2>
+        <br>
+     
+        <span>Conocimiento de framewords</span>
+        <p> Dominio del Lenguaje de programación</p>
+        <p> Resolución de problemas</p>
+        <p> Intereses por la innovación tecnológica</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="Idioma">
+       <h2> Idioma</h2>
+       <br>
+      
+       <p> Español: idioma nativo</p>
+       <P> Ingles: Avanzado</P>
+     </div>
+    </section>
+    <article id="Columna-derecha">
+      <div class="Expereciencia Laboral">
+        <div class="Experiencia Laboral 1">
+          <h2>EXPERIENCIA LABORAL</h2>
+          <h3>2/2018-Actual</h3>
+          <p><b>Agencia Creativa</b> | Murcia</p>
+          <p>Desarrollador front end</p>
+          <ul>Optimización del rendimiento</ul>
+        </div>
+        <br>
+        <br>
+        <div class="Experiencia Laboral 2">
+          <h3>6/2014 - 12/2017</h3>
+          <p><b>Bitalick</b> | Murica</p>
+          <p>Desarrollador front end</p>
+          <ul>Mantenimiento y mejora de sitios web y aplicaciones</ul>
+          <ul>Maquetación y desarrollo web front-end</ul>
+          <ul>Definición y testeo de interfaces de usuarios con React</ul>
+        </div>
+        <br>
+        <br>
+        <div class="Experiencia Laboral 3">
+          <h3>11/2012 - 11/2013</h3>
+          <p><b>Ge TIC Consultores</b> | Murica</p>
+          <p>Desarrollador front end</p>
+          <ul>Elaboración de código de calidad testeable</ul>
+          <ul>Diseño de proyectos web</ul>
+          <ul>Creación de aplicaciones a medida con PHP, JavaScript, HTML y CSS</ul>
+        </div>
+      </div>
+      <br>
+        <br>
+        <br>
+        <br>
+      <div class="Formacion Academica">
+       <h2>FORMACIÓN ACADEMICA</h2>
+       <p>06-2011</p>
+       <p><b>Campus MVP</b> | Online</p>
+       <p>Máster en Desarrollo de Apps Web Front End</p>
+      </div>
+    </article>
+  </main>
+  <br>
+      <br>
+      <br>
+  <section id="final" >
+    <h2>Contacta Conmigo</h2>
+   
+    <form action="" method="get">
+      <div>
+        <label>Titulo</label>
+        <input type="text" name="Nombre" placeholder="Tu nombre o Empresa" />
+      </div>
+      <br>
+      <br>
+      <br>
+      <div>
+        <label>Whats app</label>
+        <input type="numero" name="Telefono" placeholder="Sin 0 y sin 15" />
+      </div>
+      <br>
+      <br>
+      <br>
+      <div>
+        <label>Mensaje</label>
+
+        <textarea></textarea>
+      </div>
+      <br>
+     
+      <button>Enviar</button>
+      </form>
+  </section>
+</body>
+</html>
